@@ -1,3 +1,43 @@
+# v34.1.0 (Sat Sep 04 2021)
+
+#### 🔩 Dependency Updates
+
+- Bump node-fetch from 2.6.1 to 3.0.0 [#2049](https://github.com/jdalrymple/gitbeaker/pull/2049) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
+# v34.0.0 (Sat Sep 04 2021)
+
+#### 🐛 Bug Fix
+
+- Using arrayBuffer for unknown content types [#2040](https://github.com/jdalrymple/gitbeaker/pull/2040) ([@jdalrymple](https://github.com/jdalrymple))
+
+#### Authors: 1
+
+- Justin Dalrymple ([@jdalrymple](https://github.com/jdalrymple))
+
+---
+
+# v33.0.1 (Thu Sep 02 2021)
+
+:tada: This release contains work from a new contributor! :tada:
+
+Thank you, Roy Jacobs ([@sagacity](https://github.com/sagacity)), for all your work!
+
+#### 🐛 Bug Fix
+
+- Add a CJS build to the browser package [#2047](https://github.com/jdalrymple/gitbeaker/pull/2047) ([@sagacity](https://github.com/sagacity))
+
+#### Authors: 1
+
+- Roy Jacobs ([@sagacity](https://github.com/sagacity))
+
+---
+
 # v32.3.0 (Fri Aug 27 2021)
 
 #### 🐛 Bug Fix

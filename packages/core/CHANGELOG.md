@@ -1,3 +1,36 @@
+# v34.1.0 (Sat Sep 04 2021)
+
+#### 🐛 Bug Fix
+
+- Fixing stringify of hash arguments [#2057](https://github.com/jdalrymple/gitbeaker/pull/2057) ([@jdalrymple](https://github.com/jdalrymple))
+
+#### 🔩 Dependency Updates
+
+- Bump eslint-plugin-prettier from 3.4.1 to 4.0.0 [#2043](https://github.com/jdalrymple/gitbeaker/pull/2043) ([@dependabot[bot]](https://github.com/dependabot[bot]) [@jdalrymple](https://github.com/jdalrymple))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Justin Dalrymple ([@jdalrymple](https://github.com/jdalrymple))
+
+---
+
+# v34.0.0 (Sat Sep 04 2021)
+
+:tada: This release contains work from a new contributor! :tada:
+
+Thank you, Paul Lemke ([@lemkepf](https://github.com/lemkepf)), for all your work!
+
+#### 💥 Breaking Change
+
+- Update Jobs showPipelineJobs to have correct array return type [#2056](https://github.com/jdalrymple/gitbeaker/pull/2056) (plemke@acculynx.com)
+
+#### Authors: 1
+
+- Paul Lemke ([@lemkepf](https://github.com/lemkepf))
+
+---
+
 # v33.0.0 (Fri Aug 27 2021)
 
 #### 💥 Breaking Change

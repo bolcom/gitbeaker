@@ -66,6 +66,7 @@
   - [Sudo](#sudo)
   - [Custom Request Libraries](#custom-request-libraries)
   - [Misc](#misc)
+- [Debugging](#debugging)
 - [Development](#development)
 - [Testing](#testing)
 - [Contributors](#contributors)
@@ -497,6 +498,9 @@ let bufferedData = await api.Jobs.downloadLatestArtifactFile(project.id, 'test',
 fs.writeFileSync('test.zip', bufferedData);
 ```
 
+## Debugging
+Depending on the library used, the full information about the request error can be a bit obfuscated. Ideally, the entire information is returned from Ky (browser) or Got (nodejs) however for simplicity, a description property is added to the error object that has the error message attached. Simply look for e.description to have a better idea of what the error actually is.
+
 ## Development
 
 To get this running locally rather than from your `node_modules` folder:
@@ -626,6 +630,10 @@ This started as a fork from [node-gitlab-legacy](https://github.com/node-gitlab/
     <td align="center"><a href="https://github.com/Aliyss"><img src="https://avatars.githubusercontent.com/u/33941859?v=4?s=50" width="50px;" alt=""/><br /><sub><b>Aliyss Snow</b></sub></a><br /><a href="https://github.com/jdalrymple/gitbeaker/commits?author=Aliyss" title="Documentation">📖</a> <a href="https://github.com/jdalrymple/gitbeaker/commits?author=Aliyss" title="Tests">⚠️</a> <a href="https://github.com/jdalrymple/gitbeaker/commits?author=Aliyss" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/saada"><img src="https://avatars.githubusercontent.com/u/1087987?v=4?s=50" width="50px;" alt=""/><br /><sub><b>Mahmoud Saada</b></sub></a><br /><a href="https://github.com/jdalrymple/gitbeaker/commits?author=saada" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/F3n67u"><img src="https://avatars.githubusercontent.com/u/12343178?v=4?s=50" width="50px;" alt=""/><br /><sub><b>Feng Yu</b></sub></a><br /><a href="https://github.com/jdalrymple/gitbeaker/commits?author=F3n67u" title="Code">💻</a></td>
+    <td align="center"><a href="https://datatra.sh/"><img src="https://avatars.githubusercontent.com/u/173822?v=4?s=50" width="50px;" alt=""/><br /><sub><b>Roy Jacobs</b></sub></a><br /><a href="https://github.com/jdalrymple/gitbeaker/commits?author=sagacity" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://www.paullemke.com/"><img src="https://avatars.githubusercontent.com/u/976010?v=4?s=50" width="50px;" alt=""/><br /><sub><b>Paul Lemke</b></sub></a><br /><a href="https://github.com/jdalrymple/gitbeaker/commits?author=lemkepf" title="Code">💻</a></td>
   </tr>
 </table>
 
